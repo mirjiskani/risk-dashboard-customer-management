@@ -1,1 +1,50 @@
-<p>dashboard-page works!</p>
+<div class="container-fluid">
+
+    <div class="row g-3">
+
+        <div class="col-12 col-md-6 col-xl-3">
+
+            <app-stat-card title="Total Customers" [value]="1250" trend="+12%">
+            </app-stat-card>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+
+            <app-stat-card title="High Risk" [value]="89" trend="+5%">
+            </app-stat-card>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+
+            <app-stat-card title="Low Risk" [value]="934" trend="+3%">
+            </app-stat-card>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+
+            <app-stat-card title="Blocked" [value]="17" trend="-1%">
+            </app-stat-card>
+
+        </div>
+
+        <div class="row mt-4 g-3">
+
+            <div class="col-12 col-xl-6">
+
+                <app-risk-distribution-chart />
+
+            </div>
+
+            <div class="col-12 col-xl-6">
+
+                <app-customer-growth-chart />
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
