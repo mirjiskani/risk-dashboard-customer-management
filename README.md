@@ -18,7 +18,7 @@ A high-performance, full-stack application featuring an interactive **Risk Dashb
 The system is engineered following **SOLID principles**, strict typing, and a decoupled architecture to ensure high maintainability and straightforward testability ($TDD$ ready).
 
 ### Frontend
-*   **Framework:** Angular (v17+) using standalone components and signals for optimized reactivity.
+*   **Framework:** Angular (v21+) using standalone components and signals for optimized reactivity.
 *   **State Management:** RxJS for reactive data streaming and declarative event handling.
 *   **UI/UX:** Responsive layout built with Tailwind CSS / Angular Material, featuring clean data tables and charts.
 
