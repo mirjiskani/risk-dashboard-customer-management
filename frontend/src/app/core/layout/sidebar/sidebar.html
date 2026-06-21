@@ -1,0 +1,33 @@
+<div class="sidebar"
+     [class.mobile-open]="layoutService.isSidebarOpen()">   
+     
+    <div class="logo-container border-bottom mb-4 pb-4">
+        <img src="/assets/images/logos/risk-dashboard-logo.png" alt="Risk Dashboard Logo" class="logo" />
+
+        <span class="logo-text">
+            Risk Dashboard
+        </span>
+    </div>
+
+    <nav>
+
+        <a href="#" class="nav-link hover hover-light">Dashboard</a>
+
+        <a href="#" class="nav-link hover hover-light">Customers</a>
+
+        <a href="#" class="nav-link hover hover-light">Analytics</a>
+
+        <a href="#" class="nav-link hover">Users</a>
+
+        <a href="#" class="nav-link hover hover-light">Settings</a>
+
+    </nav>
+
+</div>
+@if (layoutService.isSidebarOpen()) {
+ <div
+    class="sidebar-backdrop"
+    (click)="layoutService.closeSidebar()">
+  </div>
+
+}
