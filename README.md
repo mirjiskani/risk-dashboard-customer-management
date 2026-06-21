@@ -32,7 +32,7 @@ The system is engineered following **SOLID principles**, strict typing, and a de
 ## 📂 Repository Structure
 
 ```text
-├── backend/          # NestJS application (Modules, Controllers, Services)
+├── backend/          # NestJS application (Modules, Controllers, Services, Repositories)
 ├── frontend/         # Angular application (Components, Services, State)
 ├── docker-compose.yml# Multi-container local orchestration
 └── README.md
